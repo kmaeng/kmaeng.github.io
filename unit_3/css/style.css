@@ -1,0 +1,27 @@
+body{
+	color: #5A677F;
+	font-family: georgia;
+	text-align: center;
+
+	background-image: url(images/travel.jpg);
+	background-size: cover;
+}
+
+h1{ 
+	color: #5A677F;
+	font-size: 60px;
+	text-transform: uppercase;
+
+}
+
+p{
+	font-size: 20px;
+
+}
+
+#tagline{
+	font-size: 20px;
+	font-style: italic;
+}
+
+#
