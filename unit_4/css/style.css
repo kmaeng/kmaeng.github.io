@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Sofia|Source+Sans+Pro);
+
+body{
+	color: #000;
+	text-align: center;
+
+	background-image: url(images/travel.jpg);
+	background-size: cover;
+}
+
+h1{ 
+	font-size: 80px;
+	font-family: 'Sofia', cursive;
+	font-weight: 800;
+	line-height: 80%;
+	
+
+}
+
+p{
+	font-size:22px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+#tagline{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	text-transform: : uppercase;
+	letter-spacing: 2px;
+		font-weight: lighter;
+
+	line-height: 20%;
+
+}
