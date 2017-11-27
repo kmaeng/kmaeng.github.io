@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Sofia|Source+Sans+Pro);
+
+body{
+	color: #000;
+	text-align: center;
+	width: 100%;
+	background-image: url(images/travel.jpg);
+	background-size: cover;
+}
+
+h1{ 
+	font-size: 5em;
+	font-family: 'Sofia', cursive;
+	font-weight: 800;
+	line-height: 0;
+	
+
+}
+
+p{
+	font-size: 1em;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+#tagline{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1em;
+	text-transform: : uppercase;
+	letter-spacing: 0;
+		font-weight: lighter;
+
+	line-height: 1em;
+
+}
+
+header{
+	background-color: #FFED74;
+	border: .1em black solid;
+	padding: .5em;
+}
+
+nav{
+	background-color: #E8C66A;
+	border: .1em black solid;
+	padding: .5em ;
+}
+
+aside{
+	background-color: #FFC675;
+	border: .1em black solid;
+	padding: 1%;
+	width:50%;
+	float: none;
+}
+
+article{
+	background-color: #E89C6C;
+	border: .1em black solid;
+	padding: 1%;
+	width: 50%;
+		float: none;
+
+}
+
+
+
+section{
+	background-color: #FFE2B8;
+	border: .1em black solid;
+	padding: .5em ;
+}
+
+
+#two_column{
+	background-color: #FFB7CF;
+	border: 1% black solid;
+	padding: 1%;
+}
+
+#left{
+	background-color: #E582A2;
+	border: 1%black solid;
+	padding: 1%;
+	float: left;
+	width: 45%;
+}
+
+#right{
+	background-color: #E55B88;
+	border: 1% black solid;
+	padding: 1%;
+	float: right;
+	width: 45%;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:" ";
+	clear: both;
+	height: 0;
+}
+
+footer{
+	background-color: #FF957E;
+	border: .1em black solid;
+	padding: 2em;
+}
+
+
+@media screen and (max-width: 500px) {
+	h1{
+		font-size: 2.5em;
+		line-height: 0;
+	}
+	#tagline{
+		font-size: .8em;
+	}
+	
+	#left{ 
+		float: none;
+		width: 100%;
+		text-align:left;
+		padding: 1em;
+		border: 0;
+}
+	#right{ 
+		float: none;
+		width: 100%;
+		text-align:left;
+		padding: 1em;
+		border: 0;
+}
+#two_column{
+	background-color: white;
+	border: none
+	padding: 0
+}
+
+section{
+	background-color: #FFE2B8;
+	border: 0 black solid;
+	padding: 0;
+}
+
+
+header{
+	background-color: #FFED74;
+	border: 0;
+	padding: 1em;
+	text-align: left;	;
+}
+}
